@@ -1,1 +1,1 @@
-# telega
+# telega bot
