@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:latest
 
 RUN apt-get update
 RUN apt-get install -y python3
@@ -11,3 +11,4 @@ COPY project.py .
 ADD project.py /home/project.py
 
 ENTRYPOINT ["python3", "/home/project.py"]    
+
