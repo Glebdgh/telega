@@ -10,5 +10,4 @@ RUN pip3 install --upgrade pyTelegramBotAPI
 COPY project.py .
 ADD project.py /home/project.py
 
-ENTRYPOINT ["python3", "/home/project.py"]    
-
+ENTRYPOINT ["python3", "/home/project.py"]
